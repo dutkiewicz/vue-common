@@ -1,5 +1,5 @@
 {
-  "name": "vue-common",
+  "name": "@dutkiewicz/vue-common",
   "version": "0.1.1",
   "description": "Vet2Pet common library",
   "main": "dist/v2p-common.ssr.js",
@@ -13,6 +13,10 @@
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dutkiewicz/vue-common.git"
   },
   "sideEffects": false,
   "scripts": {
