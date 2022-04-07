@@ -1,6 +1,6 @@
 {
   "name": "vue-common",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vet2Pet common library",
   "main": "dist/v2p-common.ssr.js",
   "browser": "dist/v2p-common.esm.js",
@@ -11,6 +11,9 @@
     "dist/*",
     "src/**/*.vue"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "sideEffects": false,
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.ts",
